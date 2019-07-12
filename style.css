@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Cormorant+Garamond|Lobster|Pacifico|Pattaya&display=swap');
+
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.wrapper{
+    background: url("./images/New11.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;   
+}
+
+#body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;  
+    position: relative;
+    top: -70px;
+    margin-bottom: -183px;
+}
+
+.logo{
+    position: relative;
+    top: 100px;
+    width: 30%;
+    float: right;
+    margin-right: 50px;
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: end;
+}
+
+h1{
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.6);
+    padding-top: 37vh;
+    font-size: 4rem;
+    font-weight: 900;
+    position: relative;
+    top: -60px;
+}
+
+.wrapper-home>header>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+}
+
+
+.wrapper-home>header>nav>ul>li {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.wrapper-home>header>nav>ul>li>a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 900; 
+}
+
+main{
+    padding: 350px 0;
+}
+
+.home-main>main{
+    background-color: rgba(0.92, 0.92, 0.92, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.home-main>main>article{
+    width: 25%;
+    position: relative;
+    top: -35px;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+.img{
+    height: 27vh;
+}
+
+.img-1{
+    background: url("./images/home-background-7.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.img-2{
+    background: url("./images/home-background-3.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.img-3{
+    background: url("./images/home-background-2.jpg") no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+    top: -33px;
+}
+
+.home-main > main > article > p{
+    height: 20vh;
+    text-align: center;
+    font-size: 18px;
+}
+.home-main > main > article > button{
+   width: 60%;
+   margin-left: 60px;
+   padding: 15px 5px 15px 5px;
+   text-align: center;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom: none;
+   background-image: linear-gradient(to right bottom, #393838, #504f4f, #696767, #828181, #9d9b9b);
+   font-family: 'Lobster', cursive;
+}
+
+.home-main > main > article > button>a{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color: goldenrod;
+    letter-spacing: 4px;
+}
+
+
+
+.wrapper-home{
+    background: black;
+}
+
+footer {
+    background: black;
+    height: 80px;
+    color: silver;
+    font-size: 18px;
+}
+
